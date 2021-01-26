@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/e_ole
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dataloop.mx
+  * I am e_ole (https://keybase.io/e_ole) on keybase.
+  * I have a public key ASDq-TB9GyUE1wIUMI5uZbvAknfFSncKnmhG4OoIZGs9Sgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012085de21de28e8d5d862f55b713760623e79eff7f5e790789def9824d05e00be5d0a",
+      "host": "keybase.io",
+      "kid": "0120eaf9307d1b2504d70214308e6e65bbc09277c54a770a9e6846e0ea08646b3d4a0a",
+      "uid": "dea42e35d261736fc14f0f94d2e25119",
+      "username": "e_ole"
+    },
+    "merkle_root": {
+      "ctime": 1611685027,
+      "hash": "987f5727c111fa0369b1857308cb5057fda053bd7d0a7f462563ae1e19de6bf1163dce933a693c09803febe4870dc5092592775d46d074749bca538440a18dc6",
+      "hash_meta": "0aaf406e2ec5b7bb6ddc72409837df751fdcd0f02f89c3f4d39e3d78d820d6f9",
+      "seqno": 18913788
+    },
+    "service": {
+      "entropy": "LYIZ/m4wHLwpDZdB8uVPgM/0",
+      "hostname": "dataloop.mx",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1611685048,
+  "expire_in": 504576000,
+  "prev": "7209bb7b3fbf1f2e862e3a843b08b422deb01bcb5faf00b2695babf3613a1b8e",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6vkwfRslBNcCFDCObmW7wJJ3xUp3Cp5oRuDqCGRrPUoKp3BheWxvYWTESpcCC8Qgcgm7ez+/Hy6GLjqEOwi0It6wG8tfrwCyaVur82E6G47EICjkr4u+PaIT0XJHOQlotvuOABtMHpUQEZDK2AZ4SoD9AgHCo3NpZ8RAYiKfz66PZvl4EesK7RwWRogWP6wZVmzwxZTTOdmzp94J5xEA/RYhyXOtrlUbx20/0WsOvOIIjyMb0MdizU36C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPfrCVXk/LJyGqc55p8250bVr85PQ6LLBBi7XMKHF2lDo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/e_ole
+
+==================================================================
