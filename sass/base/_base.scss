@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html, 
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  position: relative;
+}
+
+html {
+  font-size: 62.5%; /* equal to 10px */
+  scroll-behavior: smooth
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+section:not(:first-child),
+footer {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.gradient-background {
+  position: inherit;
+  z-index: 2;
+  background: radial-gradient(129.41% 129.4% at 50% -29.4%, #CFF0FF 0%, rgba(225, 234, 248, 0) 100%);
+  backdrop-filter: blur(6px);
+}
+
+.right-arrow {
+  width: 2.2rem;
+}
+
+.envelope, 
+.phone-call {
+  width: 1.7rem;
+  vertical-align: sub;
+  margin-right: 1rem;
+}
+
+/*******************
+**  media queries **
+*******************/
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  section:not(:first-child), footer {
+      padding-left: 5rem;
+      padding-right: 5rem;
+  }
+}
+
+@media screen 
+  and (min-device-width: 1025px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  section:not(:first-child), footer {
+      padding-left: 15rem;
+      padding-right: 15rem;
+  }
+}

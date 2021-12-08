@@ -1,0 +1,47 @@
+.header__btn {
+  position: absolute;
+}
+
+.header__btn,
+.contact__btn {
+  font-family: Source Sans Pro;
+  padding: 1.8rem 4.2rem;
+  background: #00bbd9;
+  color: #ffffff;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  font-size: $default-font-size;
+  font-weight: 400;
+  line-height: 1.7rem;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  transition: .3s all;
+}
+
+.header__btn:hover,
+.contact__btn:hover {
+  background: #00bcd9e8;
+  color: #ffffff;
+  text-decoration: none;
+  transform: scale(1.01);
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .header__btn {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen 
+  and (min-device-width: 1025px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  .header__btn {
+    font-size: $default-font-size;
+    padding: 1.5rem 3.8rem;
+  }
+}

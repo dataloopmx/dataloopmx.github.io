@@ -1,0 +1,59 @@
+.lines {
+  background-color: #F0FAFF;
+  padding-top: .5rem;
+
+  article:last-child {
+    padding-top: 5rem;
+    padding-bottom: 11rem;
+  }
+}
+
+/*******************
+**  media queries **
+*******************/
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  
+  .lines__container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .lines {
+    article {
+      padding: $padding-ipad;
+    }
+
+    article:last-child {
+      padding-bottom: 14rem;
+    }
+  }
+}
+
+@media screen 
+  and (min-device-width: 1025px)
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  .lines__container {
+    position: relative;
+    width: 100%;
+    max-width: 100rem;
+    display: flex;
+    gap: 11rem;
+    margin: 5rem auto;
+    padding-top: 5rem;
+    z-index: 2;
+  }
+
+  .lines {
+    article {
+      flex-basis: 100%;
+    }
+
+    article:last-child {
+      padding-top: 0;
+    }
+  }
+}

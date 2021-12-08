@@ -1,0 +1,39 @@
+.hc {
+  position: absolute;
+  border-radius: 100% 100% 0 0;
+  width: calc(100vw * 2);
+  height: 250px;
+  right: -50%;
+  margin-top: -7rem;
+  z-index: 2;
+}
+
+.half-circle--light-blue {
+  background-color: #F0FAFF;
+}
+
+.half-circle--white {
+  background-color: #fff;
+}
+
+/*******************
+**  media queries **
+*******************/
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  .hc {
+    height: 60rem;
+  }
+}
+
+@media screen 
+  and (min-device-width: 1025px)
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  .hc {
+    height: 100rem;
+  }
+}

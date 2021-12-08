@@ -1,0 +1,55 @@
+.about {
+  padding-bottom: 11rem;
+}
+
+.about__card {
+  width: 29rem;
+  height: 17.5rem;
+  padding: 4rem;
+  margin: 3rem auto;
+  border: 1px solid $color-black;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+  &:last-child {
+    margin-bottom: 4rem;
+  }
+}
+
+/*******************
+**  media queries **
+*******************/
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  .about {
+    padding-bottom: 14rem;
+  }
+
+  .about__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: $padding-ipad;
+    
+    & > .about__card {
+      flex-basis: 45%;
+      margin: 3rem 0;
+    }
+  }
+}
+
+@media screen 
+  and (min-device-width: 1025px)
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  .about__cards {
+    width: 67rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    margin: 4rem auto;
+  }
+}
