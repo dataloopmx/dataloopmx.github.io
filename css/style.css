@@ -696,3 +696,13 @@ footer {
   width: 5rem;
   margin: 0 auto;
   padding-top: 2.5rem; }
+
+/*******************
+**  media queries **
+*******************/
+@media screen and (min-device-width: 1025px) and (-webkit-min-device-pixel-ratio: 1) {
+  .legal__container {
+    max-width: 100rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5rem; } }
