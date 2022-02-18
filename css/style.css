@@ -25,6 +25,10 @@ footer {
   padding-left: 4rem;
   padding-right: 4rem; }
 
+li {
+  display: flex;
+  align-items: baseline; }
+
 .gradient-background {
   position: inherit;
   z-index: 2;
@@ -53,7 +57,7 @@ footer {
     padding-left: 15rem;
     padding-right: 15rem; } }
 
-p, a {
+p, a, li {
   font-family: Source Sans Pro;
   font-size: 1.85rem;
   font-style: normal;
@@ -166,6 +170,9 @@ p, a {
 .u-font-bold {
   font-weight: 600; }
 
+.u-list {
+  list-style-type: none; }
+
 .header__btn {
   position: absolute; }
 
@@ -210,6 +217,10 @@ p, a {
   vertical-align: bottom;
   margin-left: .3rem;
   margin-bottom: .2rem; }
+
+.dot--list {
+  margin-right: 1rem;
+  margin-bottom: 0; }
 
 .hc {
   position: absolute;
@@ -594,7 +605,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center; }
     .partnership .partnership__imgs img {
-      height: 4.5rem;
+      height: 5rem;
       margin: 1rem 5rem; } }
 
 .projects {

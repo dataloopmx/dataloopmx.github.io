@@ -29,6 +29,11 @@ footer {
   padding-right: 4rem;
 }
 
+li {
+  display: flex;
+  align-items: baseline;
+}
+
 .gradient-background {
   position: inherit;
   z-index: 2;
