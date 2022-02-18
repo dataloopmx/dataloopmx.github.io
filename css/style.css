@@ -110,7 +110,7 @@ p, a, li {
   font-style: normal;
   font-weight: bold;
   font-size: 2.7rem;
-  line-height: 2.4rem;
+  line-height: 3rem;
   letter-spacing: 0.1px;
   color: #000;
   padding-bottom: 1rem; }
@@ -167,6 +167,9 @@ p, a, li {
 .u-ml-1 {
   margin-left: 1rem; }
 
+.u-ml-2 {
+  margin-left: 2rem; }
+
 .u-font-bold {
   font-weight: 600; }
 
@@ -219,6 +222,7 @@ p, a, li {
   margin-bottom: .2rem; }
 
 .dot--list {
+  min-width: .7rem;
   margin-right: 1rem;
   margin-bottom: 0; }
 
