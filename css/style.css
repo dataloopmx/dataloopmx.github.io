@@ -188,6 +188,17 @@ background-co .navbar {
   display: block;
 }
 
+.partnership__intel{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.partnership__intel img{
+  width: 15%;
+}
 
 /******************* Scroll Top ************************/
 .go-top-container {
@@ -1162,5 +1173,10 @@ footer .footer__copyright {
 
   .content.active {
     display: block;
+  }
+
+
+  .partnership__intel img{
+    width: 50%;
   }
 }
