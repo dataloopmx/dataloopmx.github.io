@@ -14,7 +14,7 @@ body {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 75%;
   /* equal to 10px */
   scroll-behavior: smooth;
 }
@@ -38,11 +38,9 @@ li {
 .gradient-background {
   position: inherit;
   z-index: 2;
-  background: radial-gradient(
-    129.41% 129.4% at 50% -29.4%,
-    #cff0ff 0%,
-    rgba(225, 234, 248, 0) 100%
-  );
+  background: radial-gradient(129.41% 129.4% at 50% -29.4%,
+      #cff0ff 0%,
+      rgba(225, 234, 248, 0) 100%);
   backdrop-filter: blur(6px);
 }
 
@@ -96,6 +94,7 @@ li {
   justify-content: center;
   width: 40%;
 }
+
 .rounded-circle {
   width: 200px;
   height: 200px;
@@ -188,15 +187,15 @@ background-co .navbar {
   display: block;
 }
 
-.partnership__intel{
+.partnership__intel {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 
-.partnership__intel img{
+.partnership__intel img {
   width: 15%;
 }
 
@@ -206,10 +205,11 @@ background-co .navbar {
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 10rem;
-  right: 2rem;
+  bottom: 8rem;
+  right: 1rem;
   width: 6.6rem;
-  z-index: 1; /* Ajustado a 1 para que esté sobre el fondo */
+  z-index: 1;
+  /* Ajustado a 1 para que esté sobre el fondo */
 }
 
 .go-top-button {
@@ -220,7 +220,8 @@ background-co .navbar {
   transition: .2s;
   cursor: pointer;
   position: relative;
-  z-index: 2; /* Ajustado a 2 para que esté sobre el fondo */
+  z-index: 2;
+  /* Ajustado a 2 para que esté sobre el fondo */
 }
 
 .go-top-button i {
@@ -231,7 +232,8 @@ background-co .navbar {
   transform: translate(-50%, -50%) scale(0);
   color: white;
   transition: .2s;
-  z-index: 3; /* Ajustado a 3 para que esté sobre el fondo y el botón */
+  z-index: 3;
+  /* Ajustado a 3 para que esté sobre el fondo y el botón */
 }
 
 .show {
@@ -242,7 +244,8 @@ background-co .navbar {
   animation: popup .3s ease-in-out;
   width: 6.6rem;
   height: 6.6rem;
-  z-index: 11; /* Ajustado a 11 para que esté sobre los demás elementos */
+  z-index: 11;
+  /* Ajustado a 11 para que esté sobre los demás elementos */
 }
 
 .show i {
@@ -266,10 +269,30 @@ background-co .navbar {
   }
 }
 
+/** Forms **/
+.forms-google {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  font-size: 1.7rem;
+  width: 250px;
+  height: 50px;
+  margin: 50px;
+}
+
+
+
 /*******************
 **  media queries **
 *******************/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
   section:not(:first-child),
   footer {
     padding-left: 5rem;
@@ -278,6 +301,7 @@ background-co .navbar {
 }
 
 @media screen and (min-device-width: 1025px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+
   section:not(:first-child),
   footer {
     padding-left: 15rem;
@@ -371,6 +395,7 @@ li {
     font-size: 2.7rem;
     line-height: 3.5rem;
   }
+
   .section__sub-title {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -382,9 +407,11 @@ li {
   .header__text {
     width: 54%;
   }
+
   .section__title {
     font-size: 4.4rem;
   }
+
   .section__sub-title {
     width: 100rem;
     padding-left: 8rem;
@@ -538,10 +565,12 @@ li {
   text-transform: uppercase;
   font-size: 1.4rem;
 }
+
 .brand a {
   color: #ffffff;
   text-decoration: none;
 }
+
 .brand a:visited {
   color: #ffffff;
   text-decoration: none;
@@ -557,15 +586,18 @@ nav {
   position: relative;
   float: right;
 }
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0 7rem;
 }
+
 nav ul li {
   float: left;
   position: relative;
 }
+
 nav ul li a {
   display: block;
   padding: 0 2rem;
@@ -577,6 +609,7 @@ nav ul li a {
   font-family: "Montserrat", sans-serif;
   background: transparent;
 }
+
 nav ul li a:visited {
   display: block;
   padding: 0 2rem;
@@ -585,6 +618,7 @@ nav ul li a:visited {
   background: #262626;
   text-decoration: none;
 }
+
 nav ul li a:hover,
 nav ul li a:visited:hover {
   color: #ffffff;
@@ -600,6 +634,7 @@ nav ul li a:visited:not(:only-child):after {
 nav ul li ul li {
   min-width: 19rem;
 }
+
 nav ul li ul li a {
   padding: 1.5rem;
   line-height: 2rem;
@@ -620,34 +655,41 @@ nav ul li ul li a {
   .brand {
     padding-left: 20px;
   }
+
   .nav-list {
     background-color: #262626;
     position: absolute;
     width: 100%;
   }
+
   .nav-mobile {
     display: block;
   }
+
   nav {
     width: 100%;
     padding: 88px 0 15px;
   }
+
   nav ul {
     display: none;
     padding: 0;
   }
+
   nav ul li {
     float: none;
   }
+
   nav ul li a {
     width: 100%;
     padding: 1.5rem;
     line-height: 2rem;
   }
 
-  nav ul li a:hover{
+  nav ul li a:hover {
     background-color: #2c2c2c
   }
+
   nav ul li ul li a {
     padding-left: 3rem;
   }
@@ -657,13 +699,16 @@ nav ul li ul li a {
   .brand {
     padding-left: 30px;
   }
+
   nav {
     z-index: 4;
     position: relative;
   }
+
   nav ul {
     padding: 0 20px;
   }
+
   .nav-list {
     position: relative;
     width: 100%;
@@ -678,6 +723,7 @@ nav ul li ul li a {
   cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
+
 #navbar-toggle span {
   cursor: pointer;
   border-radius: 1px;
@@ -689,6 +735,7 @@ nav ul li ul li a {
   content: "";
   transition: all 300ms ease-in-out;
 }
+
 #navbar-toggle span:before,
 #navbar-toggle span:after {
   cursor: pointer;
@@ -701,22 +748,28 @@ nav ul li ul li a {
   content: "";
   transition: all 300ms ease-in-out;
 }
+
 #navbar-toggle span:before {
   top: -10px;
 }
+
 #navbar-toggle span:after {
   bottom: -10px;
 }
+
 #navbar-toggle.active span {
   background-color: transparent;
 }
+
 #navbar-toggle.active span:before,
 #navbar-toggle.active span:after {
   top: 0;
 }
+
 #navbar-toggle.active span:before {
   transform: rotate(45deg);
 }
+
 #navbar-toggle.active span:after {
   transform: rotate(-45deg);
 }
@@ -734,6 +787,7 @@ nav ul li ul li a {
   box-sizing: border-box;
   border-radius: 20px;
 }
+
 .about__card:last-child {
   margin-bottom: 4rem;
 }
@@ -745,13 +799,15 @@ nav ul li ul li a {
   .about {
     padding-bottom: 14rem;
   }
+
   .about__cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 4rem;
   }
-  .about__cards > .about__card {
+
+  .about__cards>.about__card {
     flex-basis: 45%;
     margin: 3rem 0;
   }
@@ -771,6 +827,7 @@ nav ul li ul li a {
   background: black;
   height: calc(100vh - 8.8rem);
 }
+
 .header__container {
   height: 60vh;
   padding-top: 12rem;
@@ -779,6 +836,7 @@ nav ul li ul li a {
 .header__img {
   height: 9.5rem;
 }
+
 .header__img--graphic {
   position: absolute;
   z-index: 0;
@@ -797,9 +855,11 @@ nav ul li ul li a {
     width: 44.5rem;
     padding-top: 25rem;
   }
+
   .header__img {
     height: 10.5rem;
   }
+
   .header__img--graphic {
     width: 100rem;
     left: 24.5rem;
@@ -811,9 +871,11 @@ nav ul li ul li a {
   .header {
     padding-left: 19rem !important;
   }
+
   .header__img {
     height: 14.5rem;
   }
+
   .header__img--graphic {
     width: 87rem;
     left: 62rem;
@@ -825,12 +887,15 @@ nav ul li ul li a {
   .header {
     padding-left: 25rem !important;
   }
+
   .header__container {
     padding-top: 28rem;
   }
+
   .header__img {
     height: 14.5rem;
   }
+
   .header__img--graphic {
     width: 115rem;
     left: 100rem;
@@ -841,6 +906,7 @@ nav ul li ul li a {
 footer {
   background-color: #000;
 }
+
 footer .footer__container,
 footer .footer__info,
 footer .footer__links,
@@ -850,6 +916,7 @@ footer .footer__contact {
   align-items: flex-start;
   justify-content: space-between;
 }
+
 footer .footer__container div,
 footer .footer__info div,
 footer .footer__links div,
@@ -857,14 +924,17 @@ footer .footer__contact div {
   height: 17rem;
   margin-bottom: 7rem;
 }
+
 footer .footer__logo {
   width: 15rem;
   margin-bottom: 1rem;
 }
+
 footer .wordmark {
   height: 4rem;
   margin-bottom: 2rem;
 }
+
 footer .footer__links h3,
 footer .footer__links a,
 footer .footer__links p,
@@ -875,12 +945,14 @@ footer .footer__contact p {
   font-family: Source Sans Pro;
   font-style: normal;
 }
+
 footer .footer__links h3,
 footer .footer__contact h3 {
   font-weight: bold;
   font-size: 1.85rem;
   line-height: 24px;
 }
+
 footer .footer__links a,
 footer .footer__links p,
 footer .footer__contact a,
@@ -889,6 +961,7 @@ footer .footer__contact p {
   font-size: 16px;
   line-height: 26px;
 }
+
 footer .footer__copyright {
   color: white;
   text-align: center;
@@ -910,6 +983,7 @@ footer .footer__copyright {
   background-color: #f0faff;
   padding-top: 0.5rem;
 }
+
 .lines article:last-child {
   padding-top: 5rem;
   padding-bottom: 11rem;
@@ -923,9 +997,11 @@ footer .footer__copyright {
     position: relative;
     z-index: 2;
   }
+
   .lines article {
     padding: 0 4rem;
   }
+
   .lines article:last-child {
     padding-bottom: 14rem;
   }
@@ -942,9 +1018,11 @@ footer .footer__copyright {
     padding-top: 5rem;
     z-index: 2;
   }
+
   .lines article {
     flex-basis: 100%;
   }
+
   .lines article:last-child {
     padding-top: 0;
   }
@@ -956,6 +1034,7 @@ footer .footer__copyright {
   flex-direction: column;
   align-items: center;
 }
+
 .partnership .partnership__imgs {
   width: fit-content;
   height: 25rem;
@@ -965,6 +1044,7 @@ footer .footer__copyright {
   align-items: center;
   justify-content: space-between;
 }
+
 .partnership .partnership__imgs img {
   height: 4rem;
   filter: grayscale(100%);
@@ -979,6 +1059,7 @@ footer .footer__copyright {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .partnership .partnership__imgs img {
     height: 5rem;
     margin: 1rem 5rem;
@@ -998,17 +1079,20 @@ footer .footer__copyright {
   margin: 7rem auto 0;
   overflow: hidden;
 }
+
 .projects__img--desktop {
   width: 80%;
   align-self: flex-start;
   z-index: 5;
 }
+
 .projects__img--mobile {
   width: 35%;
   top: -9rem;
   align-self: flex-end;
   z-index: 5;
 }
+
 .projects__img img {
   position: relative;
   border-radius: 10px;
@@ -1028,6 +1112,7 @@ footer .footer__copyright {
     width: 53%;
     margin: 7rem auto 0;
   }
+
   .projects__article {
     padding: 0 4rem;
   }
@@ -1042,6 +1127,7 @@ footer .footer__copyright {
     margin: 0 auto;
     padding-top: 5rem;
   }
+
   .projects__article {
     align-self: center;
   }
@@ -1050,6 +1136,7 @@ footer .footer__copyright {
 .services__article {
   margin: 7rem auto 0;
 }
+
 .services__article div span {
   margin-top: 0.75rem;
   margin-right: 0.75rem;
@@ -1065,12 +1152,15 @@ footer .footer__copyright {
     justify-content: space-between;
     padding: 0 4rem;
   }
-  .services__articles > article {
+
+  .services__articles>article {
     flex-basis: 45%;
   }
+
   .services__articles article:nth-child(odd) {
     padding-right: 1rem;
   }
+
   .services__articles article:nth-child(even) {
     padding-left: 1rem;
   }
@@ -1083,6 +1173,7 @@ footer .footer__copyright {
     grid-template-columns: 1fr 1fr;
     margin: 4rem auto;
   }
+
   .services__articles article {
     width: 35rem;
   }
@@ -1120,12 +1211,13 @@ footer .footer__copyright {
     width: 50%;
   }
 
-  .titleviya{
+  .titleviya {
     width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
   }
+
   .viya4 {
     width: 115%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
@@ -1176,7 +1268,7 @@ footer .footer__copyright {
   }
 
 
-  .partnership__intel img{
+  .partnership__intel img {
     width: 50%;
   }
 }
