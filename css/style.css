@@ -277,13 +277,19 @@ background-co .navbar {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.forms-google p{
+  width: 50%;
+  margin: 30px;
 }
 
 .btn-primary {
   font-size: 1.7rem;
   width: 250px;
   height: 50px;
-  margin: 50px;
+  margin: 25px 0 50px;
 }
 
 
