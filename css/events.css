@@ -150,7 +150,7 @@ font-weight: bold;
   width: 40%;
 }
 
-.boxtopicsinfo p{
+.topicsinfo{
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -313,7 +313,7 @@ font-weight: bold;
 
 /******** Responsivo ***********/
 
-@media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (max-device-width: 1280px) and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   /******Introduccion******/
 
   .title1 {
@@ -341,7 +341,7 @@ font-weight: bold;
     width: 85%;
   }
 
-  .boxtopicsinfo p{
+  .topicsinfo{
     font-size: 17px;
     width: 100%;
     margin: 0px;
@@ -412,79 +412,66 @@ font-size: 20px;
   }
 
   .header__img--graphic2 {
-    width: 75%;
-    top: 350px;
+    width: 70%;
+    top: 320px;
   }
 
   /*******Presentacion********/
+.tittletopics{
+  flex-direction: column;
+  align-items: center;
+}
 
-  .presentacionbox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0%;
+  .subtittlestopics h2{
+    font-weight: bold;
   }
 
-  .rbox1 {
+  .topicsinfo {
+    font-size: 12px;
+}
+  
+  .boxtopicsinfo{
     width: 100%;
+    margin-bottom: 50px;
   }
 
-  .rboxc1 {
-    height: 500px;
-  }
-  .boxbene {
+  .topicsinfo{
+    font-size: 16px;
     width: 100%;
-    height: 900px;
-  }
-
-  .boxmbhM {
     margin: 0px;
-    justify-content: flex-start;
-    height: 400px;
   }
 
-  .boxmbh1 {
-    flex-direction: column;
+  .partnertitle{
+    text-align: center;
+    width: 80%;
   }
-
+  
   .partnertitle h2 {
+    font-size: 32px;
+  }
+
+  .partnerships {
     text-align: center;
   }
+  
   .partnership_imgs {
     width: 100%;
   }
-
+  
   .partnership_imgs img {
     width: 200px;
     height: 200px;
-    margin-right: 32.5px;
+    margin-right: 55px;
   }
 
   /***Expertos***/
 
-  .titleexp h2 {
-    text-align: center;
-    width: 100%;
-    font-size: 25px;
-    margin-bottom: 50px;
+  .boxtxtexp{
+    flex-wrap: wrap;
   }
 
-  .presentacionexp h1 {
-    font-size: 48px;
-  }
-
-  .imgexp img {
-    width: 200px;
-    margin: 0 50px 0;
-  }
-
-  .boxtxtexp h2 {
-    font-size: 25px;
-  }
-
-  .txtexp {
-    font-size: 20px;
-    width: 200px;
+  .boxstxtexp{
+    margin-bottom: 25PX;
   }
 
   /***Formulario***/
@@ -503,232 +490,206 @@ font-size: 20px;
   }
 
   .header3__img3--graphic3 {
-    width: 80%;
+    width: 75%;
     left: -25%;
   }
 
   .form {
     padding: 50px;
-    width: 55%;
+    width: 60%;
   }
 
   .form iframe {
     width: 100%;
-    height: 1210px;
+    height: 1190px;
   }
 
-  @media only screen and (max-device-width: 425px) and (-webkit-min-device-pixel-ratio: 1) {
-    .presentacion {
-      display: flex;
-      flex-direction: column;
-    }
-    /******Introduccion******/
-    .intbox1 {
-      margin-left: 0px;
-      width: 100%;
-    }
+}
 
-    .title1 {
-      font-size: 30px;
-      width: 100%;
-      height: 150px;
-      margin-bottom: 25px;
-    }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 620px) and (-webkit-min-device-pixel-ratio: 1) {
+ 
+      /******Introduccion******/
 
-    .subtitle1 {
-      font-size: 25px;
-      width: 100%;
-    }
-    .subtitle2 {
-      font-size: 25px;
-    }
+   .Intro{
+    padding: 0;
+    padding-right: 0%;
+    padding: 0%;
+   }   
 
-    .btn1 {
-      width: 100px;
-      height: 50px;
-      font-size: 15px;
-    }
+   .intbox1{
+    width: 100%;
+    padding: 6%;
+    margin-top: 25px;
+    margin-left: 0;
+   }
 
-    .btn1:hover {
-      width: 110px;
-      height: 55px;
-      font-size: 18px;
-      transition: 0.2ms;
-    }
+  .expertalk{
+    font-size: 18px;
+  } 
 
-    .header__img--graphic2 {
-      width: 100%;
-      top: 450px;
-    }
+  .title1 {
+    font-size: 32px;
+    height: 150px;
+    margin-bottom: 25px;
+  }
 
-    /*******Presentacion********/
-    .presentacion {
-      border: 10px solid green;
-    }
+  .subtitle1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .subtitle2 {
+    font-size: 30px;
+  }
 
-    .presentacionbox{
-      width: 100%;
-      flex-wrap: wrap;
-    }
+  .intbox1 p {
+    font-size: 16px;
+  }
+  
+  .intbox2{
+    width: 5%;
+  }
+  .btn1 {
+    top: 30px;
+    right: 3%;
+    width: 80px;
+    height: 50px;
+    font-size: 12.5px;
+  }
 
-    .rbox1 {
-      border: 5px solid green;
-      height: 950px;
-    }
+  .btn1:hover {
+    width: 100px;
+    height: 60px;
+    font-size: 13px;
+    transition: 0.2ms;
+  }
 
-    .rboxt1 h3 {
-      font-size: 25px;
-    }
+  .header__img--graphic2 {
+    width: 100%;
+    top: 325px;
+    right: -200px;
+  }
 
-    .rboxc1 {
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      border: 2px solid green;
-    }
+  /*******Presentacion********/
+  
+  .topicsbox h1{
+    font-size: 40px;
+  }
 
-    .rboxc {
-      margin-bottom: 700px;
-    }
-    .circle1 {
-      width: 250px;
-      height: 250px;
-    }
+  .subtittlestopics h2{
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+  }
 
-    .crtxt1 {
-      font-size: 16px;
-      margin-top: 25px;
-      border: 1px solid #0099d5;
-    }
+  .topicsinfo {
+    width: 60%;
+    font-size: 12px;
+}
+  
+  .boxtopicsinfo{
+    padding: 0%;
+    width: 350px;
+    margin-bottom: 25px;
+  }
 
-    .circle2 {
-      width: 250px;
-      height: 250px;
-      margin: 25px 0px 0px 0px;
-    }
+  .boxtopicsinfo img{
+    width: 35%;
+  }
 
-    .crtxt3 {
-      font-size: 16px;
-      margin-top: 25px;
-      border: 1px solid #0099d5;
-    }
+  .topicsinfo{
+    font-size: 15.5px;
+  }
 
-    .crtxt4 {
-      font-size: 13px;
-      width: 60%;
-      height: 65px;
-    }
+  .partnertitle{
+    width: 100%;
+  }
+  
+  .partnertitle h2 {
+    font-size: 26px;
+  }
+ 
+  .partnership_imgs {
+    width: 100%;
+  }
+  
+  .partnership_imgs img {
+    width: 110px;
+    height: 110px;
+    margin-right: 15px;
+  }
 
-    .circle3 {
-      margin-top: 25px;
-      width: 250px;
-      height: 250px;
-    }
+  /***Expertos***/
 
-    .boxbene {
-      width: 100%;
-      height: 950px;
-      border: 1px solid;
-    }
+  .titleexp h2{
+      font-size: 18.5px;
+  }
 
-    .boxbenet h3 {
-      font-size: 25px;
-    }
-    .boxmbhM {
-      margin: 0px;
-      justify-content: flex-start;
-      height: 800px;
-      border: 1px solid #0099d5;
-    }
+  .presentacionexp h1{
+    font-size: 40px;
+  }
 
-    .boxbh {
-      margin: 25px;
-      width: 300px;
-      height: 130px;
-    }
+  /***Formulario***/
 
-    .boxbh img {
-      width: 100px;
-      margin-right: 15px;
-      margin-left: 15px;
-    }
-    .boxbh p {
-      font-size: 15px;
-      width: 250px;
-    }
+  .formulario {
+    margin-top: 50px;
+    padding: 5px;
+  }
 
-    .partnerships {
-      border: 1px solid #0099d5;
-      margin-top: 50px;
-    }
-    .partnertitle h2 {
-      text-align: center;
-      font-size: 25px;
-    }
-    .partnership_imgs {
-      width: 100%;
-    }
+  .registro{
+    display: none;
+  }
 
-    .partnership_imgs img {
-      width: 200px;
-      height: 200px;
-      margin-right: 32.5px;
-    }
+  .formulario h1 {
+    font-size: 35px;
+  }
 
-    /***Expertos***/
+  .boxgraphic {
+    display: flex;
+    align-items: center;
+  }
 
-    .titleexp h2 {
-      text-align: center;
-      width: 90%;
-      font-size: 25px;
-      margin-bottom: 50px;
-    }
+  .header3__img3--graphic3 {
+    display: none;
+  }
 
-    .presentacionexp h1 {
-      font-size: 48px;
-    }
+  .form {
+    padding: 0px;
+    width: 100%;
+  }
 
-    .imgexp img {
-      width: 200px;
-      margin: 0 50px 0;
-    }
 
-    .boxtxtexp h2 {
-      font-size: 25px;
-    }
+}
 
-    .txtexp {
-      font-size: 20px;
-      width: 200px;
-    }
+@media only screen and (max-device-width: 375px) and (-webkit-min-device-pixel-ratio: 1) {
 
-    /***Formulario***/
+   /******Introduccion******/
+  .expertalk{
+    font-size: 15px;
+  } 
 
-    .formulario {
-      padding: 15px;
-    }
+  .title1 {
+    font-size: 28px;
+    height: 125px;
+  }
 
-    .formulario h1 {
-      font-size: 50px;
-    }
+  .subtitle1 {
+    font-size: 25px;
+  }
 
-    .boxgraphic {
-      display: flex;
-      align-items: center;
-    }
+  .btn1 {
+    top: 15px;
+    height: 40px;
+  }
 
-    .header3__img3--graphic3 {
-      width: 80%;
-      left: -25%;
-    }
+  .header__img--graphic2 {
+    width: 100%;
+    top: 340px;
+    right: -180px;
+  }
 
-    .form {
-      padding: 50px;
-      width: 55%;
-    }
-
-    .form iframe {
-      height: 1200px;
-    }
+   /*******Presentacion********/
+  
+   .topicsbox h1{
+    font-size: 40px;
   }
 }

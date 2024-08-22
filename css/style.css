@@ -556,7 +556,8 @@ nav ul li ul li a {
   .nav-list {
     position: relative;
     width: 100%;
-    display: block !important;
+    display: relative+9999999999
+    ;
   }
 }
 
