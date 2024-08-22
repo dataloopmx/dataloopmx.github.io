@@ -660,7 +660,7 @@ font-size: 20px;
 
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 395px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 399px) and (-webkit-min-device-pixel-ratio: 1) {
 
    
   .Intro{
@@ -682,7 +682,7 @@ font-size: 20px;
 
   .title1 {
     font-size: 32px;
-    height: 150px;
+    height: 180px;
     margin-bottom: 25px;
   }
 
@@ -710,8 +710,8 @@ font-size: 20px;
   }
 
   .btn1:hover {
-    width: 100px;
-    height: 60px;
+    width: 850px;
+    height: 35px;
     font-size: 13px;
     transition: 0.2ms;
   }
